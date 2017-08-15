@@ -1,17 +1,16 @@
 
-public class Whip extends CondimentDecorator {
+public class Soy extends CondimentDecorator {
 	Beverage beverage;
-	public Whip(Beverage beverage){
+	public Soy(Beverage beverage){
 		this.beverage = beverage;
 	}
 	@Override
     public String getDescription() {
     	// TODO Auto-generated method stub
-    	return beverage.getDescripion()+ ",Whip";
+    	return beverage.getDescripion()+ ",Soy";
     	
     }
     public double cost(){
-    	return 0.10+ beverage.cost();	
+    	return 0.15+ beverage.cost();	
 	}
 }
-

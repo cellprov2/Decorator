@@ -9,8 +9,6 @@ public abstract class Beverage {
 
 	public abstract double cost();
 
-	public String getDescription() {
-		// TODO Auto-generated method stub
-		return null;
+
 	} 
-} 
+

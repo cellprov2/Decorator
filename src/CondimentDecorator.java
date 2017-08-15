@@ -1,5 +1,5 @@
 
-public class CondimentDecorator extends Beverage {
+public abstract class CondimentDecorator extends Beverage {
 
 	@Override
 	public double cost() {
@@ -7,9 +7,7 @@ public class CondimentDecorator extends Beverage {
 		return 0;
 	}
 
-	public String getDescription() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	public abstract String getDescription();
+	
 
 }
