@@ -7,7 +7,7 @@ public class Soy extends CondimentDecorator {
 	@Override
     public String getDescription() {
     	// TODO Auto-generated method stub
-    	return beverage.getDescripion()+ ",Soy";
+    	return beverage.getDescription()+ ",Soy";
     	
     }
     public double cost(){

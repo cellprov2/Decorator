@@ -2,7 +2,7 @@
 public abstract class Beverage {
 	String description = "Unknow Bverage";
 	
-	public String getDescripion(){
+	public String getDescription(){
 		return description;
 		
 	}

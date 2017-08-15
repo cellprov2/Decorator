@@ -8,7 +8,7 @@ public class SteamedMilk extends CondimentDecorator {
 	@Override
     public String getDescription() {
     	// TODO Auto-generated method stub
-    	return beverage.getDescripion()+ ",SteamedMilk";
+    	return beverage.getDescription()+ ",SteamedMilk";
     	
     }
     public double cost(){

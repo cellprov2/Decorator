@@ -7,7 +7,7 @@ public class Whip extends CondimentDecorator {
 	@Override
     public String getDescription() {
     	// TODO Auto-generated method stub
-    	return beverage.getDescripion()+ ",Whip";
+    	return beverage.getDescription()+ ",Whip";
     	
     }
     public double cost(){
